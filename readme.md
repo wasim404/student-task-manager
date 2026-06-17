@@ -15,11 +15,9 @@
 
 ## 项目简介
 
-StudyFlow 是一个面向大学生学习场景设计的个人学习任务管理系统。
+StudyFlow 是一个学习任务管理系统。
 
 项目采用 Python 开发，结合 Tkinter 图形界面与 SQLite 数据库，实现任务的长期保存与管理，帮助用户规划学习安排，提高学习效率。
-
-本项目为《Python程序设计》课程期末项目。
 
 ---
 
@@ -102,12 +100,6 @@ pip install matplotlib
 pip install tkcalendar
 ```
 
-或者：
-
-```bash
-pip install -r requirements.txt
-```
-
 ---
 
 ## 运行项目
@@ -119,28 +111,6 @@ python main.py
 ```
 
 启动后即可进入登录界面。
-
----
-
-## 项目截图
-
-### 登录界面
-
-* 用户登录
-* 用户注册
-
-### 今日任务界面
-
-* 查看当天待完成任务
-
-### 日历管理界面
-
-* 日历视图管理任务
-
-### 个人中心界面
-
-* 查看统计信息
-* 饼图展示完成情况
 
 ---
 
@@ -156,18 +126,6 @@ python main.py
 
 ---
 
-## 开发环境
-
-```text
-Windows 11
-Python 3.12
-SQLite 3
-Tkinter
-ttkbootstrap
-Matplotlib
-```
-
----
 
 ## 作者
 
