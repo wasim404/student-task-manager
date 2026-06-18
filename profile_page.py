@@ -29,9 +29,9 @@ from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 from matplotlib.figure import Figure
 
 
-# =========================
+ 
 # Matplotlib 中文字体配置
-# =========================
+ 
 
 rcParams["font.sans-serif"] = [
     "Microsoft YaHei",
@@ -43,9 +43,9 @@ rcParams["font.sans-serif"] = [
 rcParams["axes.unicode_minus"] = False
 
 
-# =========================
+ 
 # 密码加密函数
-# =========================
+ 
 
 def encrypt_password(password: str) -> str:
     """
@@ -101,9 +101,9 @@ class ProfilePage:
         # 启动自动刷新
         self.start_auto_refresh()
 
-    # =========================
+     
     # 可滚动区域
-    # =========================
+     
 
     def create_scrollable_area(self):
         """
@@ -199,9 +199,9 @@ class ProfilePage:
             "units"
         )
 
-    # =========================
+     
     # 数据库相关方法
-    # =========================
+     
 
     def get_connection(self):
         """
@@ -345,9 +345,9 @@ class ProfilePage:
         except sqlite3.Error:
             return default_data
 
-    # =========================
+     
     # 页面 UI 创建
-    # =========================
+     
 
     def create_widgets(self):
         """
@@ -629,9 +629,9 @@ class ProfilePage:
         self.chart_figure.tight_layout()
         self.chart_canvas.draw_idle()
 
-    # =========================
+     
     # 刷新方法
-    # =========================
+     
 
     def refresh_info(self):
         """
@@ -689,9 +689,9 @@ class ProfilePage:
 
             self.auto_refresh_job = None
 
-    # =========================
+     
     # 修改密码
-    # =========================
+     
 
     def open_change_password_window(self):
         """
@@ -801,9 +801,9 @@ class ProfilePage:
 
         self.password_window.destroy()
 
-    # =========================
+     
     # 页面销毁与退出
-    # =========================
+     
 
     def refresh_page(self):
         """
